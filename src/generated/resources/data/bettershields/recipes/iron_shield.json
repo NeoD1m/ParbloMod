@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MCM",
+    " M "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:shield"
+    },
+    "M": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "bettershields:iron_shield"
+  }
+}

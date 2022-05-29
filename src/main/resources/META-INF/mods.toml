@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[33,)" #mandatory
+license="GNU General Public License v3.0" #mandatory
+issueTrackerURL="https://github.com/ToMe25/Better-Shields/issues"
+[[mods]] #mandatory
+    modId="parblomod" #mandatory
+    version="${file.jarVersion}" #mandatory
+    displayName="Parblo Mod" #mandatory
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/better-shields"
+    logoFile="BetterShieldsLogo.png"
+    credits="Serj4ever - Russian Translation, ProSplash - Ukrainian Translation, issizk1ng - Turkish Translation"
+    authors="ToMe25"
+    description='''A small Minecraft Vanilla+ Mod that adds Shields for all the Tool Materials and makes different Shields absorb different amounts of damage.'''
+[[dependencies.parblomod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[33,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.parblomod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16,1.17)"
+    ordering="NONE"
+    side="BOTH"
